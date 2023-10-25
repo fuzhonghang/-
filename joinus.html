@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="img/logo.ico" sizes="16x16">
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
+		<title>广信中学摄影协会</title>
+		<style>
+			* {
+			    margin: 0;
+			    padding: 0;
+			    box-sizing: border-box;
+			}
+			body{
+				background-color: skyblue;
+				}
+			#nav{
+				height: 65px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding: 15px 100px;
+				z-index: 10
+			}
+			#logo{
+				margin: 0 auto;
+				max-width: 280px;
+				max-height: 50px;
+			}
+			#nav #logo img{
+				max-width: 100%;
+				max-height: 100%;
+			}
+			.all{
+				max-width: 98%;
+				background-color: white;
+				margin: 0px auto;
+				margin-top: 20px;
+				border-radius: 20px;
+				box-shadow: 2px 5px 15px rgba(0, 0, 0, .7);
+			}
+			#bigbox{
+				height: 700px;
+			}
+			#text1{
+				margin-top: 10px;
+			}
+			#bigbox p{
+				text-align: center;
+			}
+			#bigbox h1{
+				text-align: center;
+			}
+			#video{
+				max-width: 800px;
+				max-height: 460px;
+				margin: 0 auto;
+				margin-top: 20px;
+			}
+			#video video{
+				max-width: 100%;
+				max-height: 100%;
+				border-radius: 20px;
+				box-shadow: 2px 5px 15px rgba(0, 0, 0, .7);
+			}
+			.button{
+				display: inline-block;
+				background: #434978;
+				color: #fff;
+				font-size: 20px;
+				border-radius: 10px;
+				padding: 10px 20px;
+				text-decoration: none;
+				font-weight: 600;
+				margin-top: 20px;
+				margin: 0 auto;
+			}
+			#button{
+				margin: 0 auto;
+				margin-top: 20px;
+				width: 150px;
+				height: 50px;
+			}
+			@media screen and (max-width:600px){
+				#video{
+					height: auto;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="nav" class="all">
+			<div id="logo"><a href="index.html"><img src="img\logo2.svg" alt="logo"></a></div>
+		</div>
+		<div id="bigbox" class="all">
+			<div id="text1">
+				<h1>加入我们</h1>
+			    <p>JOIN US</p>
+			</div>
+			<div id="video"><video src="1.mp4" controls autoplay muted loop></video></div>
+			<div id="button"><a href="https://www.wjx.cn/vm/rXg6D02.aspx" class="button">立即加入</a></div>
+		</div>
+	</body>
+</html>
